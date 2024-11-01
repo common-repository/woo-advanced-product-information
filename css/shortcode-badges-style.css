@@ -1,0 +1,268 @@
+.wapinfo-shortcode-badges {
+    color: #fff;
+    background: #ff0020;
+    position: relative;
+    padding: 1px 6px;
+    font-size: 15px;
+    margin: 0 10px;
+    display: inline-block;
+    line-height: 18px;
+}
+
+/*badge 1*/
+.wapinfo-shortcode-badges-1:before {
+    content: '';
+    line-height: inherit;
+    border-top: 10px solid #ff0020;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid #ff0020;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -10px;
+}
+
+/*badge 2*/
+
+.wapinfo-shortcode-badges-2:before {
+    content: '';
+    line-height: inherit;
+    border-top: 10px solid #ff0020;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ff0020;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -10px;
+}
+
+/*badge 3*/
+
+.wapinfo-shortcode-badges-3:before {
+    content: '';
+    line-height: inherit;
+    border-top: 10px solid #ff0020;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid #ff0020;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -10px;
+}
+
+.wapinfo-shortcode-badges-3:after {
+    content: '';
+    line-height: inherit;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #ff0020;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -10px;
+}
+
+/*badge 4*/
+
+.wapinfo-shortcode-badges-4:before {
+    content: '';
+    line-height: inherit;
+    border-top: 10px solid transparent;
+    border-right: 10px solid #ff0020;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -10px;
+}
+
+.wapinfo-shortcode-badges-4:after {
+    content: '';
+    line-height: inherit;
+    border-top: 10px solid #ff0020;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ff0020;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -10px;
+}
+
+/*badge 5*/
+
+.wapinfo-shortcode-badges-5:before {
+    content: '';
+    line-height: inherit;
+    border-top: 10px solid #ff0020;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid #ff0020;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -10px;
+}
+
+.wapinfo-shortcode-badges-5:after {
+    content: '';
+    line-height: inherit;
+    border-top: 10px solid #ff0020;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ff0020;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -10px;
+}
+
+/*badge 6*/
+.wapinfo-shortcode-badges-6:before {
+    content: '';
+    line-height: inherit;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid #ff0020;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -10px;
+}
+
+.wapinfo-shortcode-badges-6:after {
+    content: '';
+    line-height: inherit;
+    border-top: 10px solid #ff0020;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -10px;
+}
+
+/*badge 7*/
+
+.wapinfo-shortcode-badges-7:before {
+    content: '';
+    line-height: inherit;
+    border-top: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ff0020;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -10px;
+}
+
+.wapinfo-shortcode-badges-7:after {
+    content: '';
+    line-height: inherit;
+    border-top: 10px solid #ff0020;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -10px;
+}
+
+/*badge 8*/
+
+.wapinfo-shortcode-badges-8:before {
+    content: '';
+    line-height: inherit;
+    border-top: 20px solid transparent;
+    border-right: 10px solid #ff0020;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -10px;
+}
+
+.wapinfo-shortcode-badges-8:after {
+    content: '';
+    line-height: inherit;
+    border-left: 10px solid #ff0020;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -10px;
+}
+
+/*badge 9*/
+
+.wapinfo-shortcode-badges-9:before {
+    content: '';
+    line-height: inherit;
+    border-bottom: 20px solid transparent;
+    border-right: 10px solid #ff0020;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -10px;
+}
+
+.wapinfo-shortcode-badges-9:after {
+    content: '';
+    line-height: inherit;
+    border-left: 10px solid #ff0020;
+    border-top: 20px solid transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -10px;
+}
+
+/*badge 10*/
+.wapinfo-shortcode-badges-10 {
+    border-radius: 50%;
+    padding: 3px 10px;
+}
+
+/*badge 11*/
+.wapinfo-shortcode-badges-11 {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 48px;
+    display: inline-block;
+}
+/*badge 12*/
+.wapinfo-shortcode-badges-12 {
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 48px;
+    display: inline-block;
+}
+
+/*badge 3*/
+
+.wapinfo-shortcode-badges-13:after {
+    content: '';
+    line-height: inherit;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #ff0020;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -10px;
+}
+
+/*badge 4*/
+
+.wapinfo-shortcode-badges-14:before {
+    content: '';
+    line-height: inherit;
+    border-top: 10px solid transparent;
+    border-right: 10px solid #ff0020;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -10px;
+}

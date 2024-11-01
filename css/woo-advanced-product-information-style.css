@@ -1,0 +1,17 @@
+.wapinfo-custom-policy-content-container.wapinfo-layout-2 .wapinfo-custom-policy-column .wapinfo-custom-policy-icon {
+  display: flex;
+  align-items: center;
+}
+
+.wapinfo-custom-policy-content-container.wapinfo-layout-2 .wapinfo-custom-policy-column {
+  text-align: left;
+  display: flex;
+}
+
+.wapinfo-custom-policy-content-container.wapinfo-layout-2 .wapinfo-custom-policy-column .wapinfo-custom-policy-icon,
+.wapinfo-custom-policy-content-container.wapinfo-layout-2 .wapinfo-custom-policy-column .wapinfo-custom-policy-text {
+  padding-right: 0;
+  padding-bottom: 15px;
+}
+
+/*# sourceMappingURL=woo-advanced-product-information-style.css.map */

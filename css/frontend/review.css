@@ -1,0 +1,16 @@
+/*reviews*/
+.wapinfo-review .woocommerce-review-link{
+	opacity: 1;
+	position: relative;
+	display: block;
+}
+.wapinfo-review{
+	-webkit-border-radius: 4px;
+	-moz-border-radius:    4px;
+	border-radius:         4px;
+	margin:                5px 0;
+	padding: 0;
+}
+.single-product div.product .woocommerce-product-rating{
+	margin-top: 0 !important;
+}

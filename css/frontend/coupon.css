@@ -1,0 +1,31 @@
+.wapinfo-coupon{
+    text-align: center;
+    border: 1px dashed red;
+    padding: 5px;
+    border-left-width: 2px;
+}
+span.wapinfo-coupon-code {
+    color: red;
+}
+span.wapinfo-coupon-amount {
+    font-weight: 600;
+}
+.wapinfo-coupon-wrap {
+    position: relative;
+    margin: 10px 0;
+}
+.wapinfo-coupon-detail {
+    display: none;
+    position: absolute;
+    z-index: 999;
+    background: #ffffff;
+    padding: 0 10px;
+    right: 0;
+    border: 1px dashed red;
+    box-sizing: border-box;
+    font-style: italic;
+    width: 100%;
+}
+.wapinfo-coupon-wrap:hover .wapinfo-coupon-detail {
+    display: block;
+}

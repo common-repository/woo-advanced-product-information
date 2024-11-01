@@ -1,0 +1,10 @@
+span.wapi-shortcode-icon:before{
+    font-size: inherit !important;
+    width: inherit !important;
+    height: inherit !important;
+    line-height: inherit !important;
+    display: inherit !important;
+}
+span.wapi-shortcode-icon{
+    display: inline;
+}

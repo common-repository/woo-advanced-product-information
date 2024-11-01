@@ -1,0 +1,16 @@
+/*payment*/
+.wapinfo-payment-method-wrap{
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+.wapinfo-payment-method{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.wapinfo-payment-method span:before{
+    border-radius: 50%;
+    border: 1px solid;
+    padding: 5px
+}

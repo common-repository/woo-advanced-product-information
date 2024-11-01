@@ -1,0 +1,14 @@
+* {
+	direction: rtl;
+}
+
+.wapinfo-custom-policy-content-container.wapinfo-layout-2 .wapinfo-custom-policy-column {
+	text-align: right;
+}
+
+.wapinfo-custom-policy-content-container.wapinfo-layout-2 .wapinfo-custom-policy-column .wapinfo-custom-policy-icon,
+.wapinfo-custom-policy-content-container.wapinfo-layout-2 .wapinfo-custom-policy-column .wapinfo-custom-policy-text {
+	padding-right: 15px;
+	padding-left: 0;
+	padding-bottom: 15px;
+}

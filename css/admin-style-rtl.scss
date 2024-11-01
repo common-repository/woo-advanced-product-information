@@ -1,0 +1,17 @@
+.vi-ui{
+	direction: rtl;
+}
+.vi-ui.vertical.menu {
+	float: right;
+	margin: 0 0 0 1%;
+}
+
+.wrap .vi-ui.form {
+	float: right;
+}
+
+.vi-ui.vertical.pointing.menu .item:after {
+	right: auto;
+	left: 0;
+	margin: 0 0 0 -9.5px;
+}

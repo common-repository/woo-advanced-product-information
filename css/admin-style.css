@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+}
+
+.iris-picker {
+    position: absolute !important;
+    z-index: 5;
+}
+
+.choose-icon {
+    padding: 0 5px;
+    margin: 0 5px;
+}
+
+/*icons table*/
+.wapi-icons {
+
+    background-color: white;
+    text-align: center;
+    overflow: auto;
+}
+
+.wapi-icons-wrap {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: white;
+    border: 1px solid;
+}
+
+.row-edit > th {
+    text-align: center;
+}
+
+.row-edit > td {
+    text-align: center;
+}
+
+th > p {
+    font-style: italic;
+    font-weight: normal;
+    margin: 0;
+}
+
+#wapi-single-product-settings label {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+#wapi_delete_local {
+    float: right;
+}
+
+#wapi_delete_option {
+    float: right;
+    margin: 0;
+}
+
+#wapi_update_product {
+    float: right;
+    margin-left: 40px;
+}
+
+#wapi_custom_product_meta_box {
+    display: flow-root;
+}
+
+.wapi-hide-settings {
+    display: none;
+}
+
+/*payments*/
+.payment-methods-list td:last-child,
+.payment-methods-list th {
+    text-align: center;
+}
+
+/*custom*/
+.ui-sortable tr {
+    cursor: move;
+}
+
+/*main*/
+.vi-ui.vertical.menu {
+    width: 19%;
+    float: left;
+    padding-top: 0;
+    margin: 0 1% 0 0;
+}
+
+div.wrap {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
+
+.wrap .vi-ui.form {
+    float: left;
+
+    width: 80%;
+}
+
+.vi-ui.tab.segment {
+    border-left: none;
+    margin: 0;
+}
+
+/*single product admin*/
+.wrap.wapi-single-product .vi-ui .wapi-single-product-hidden {
+    display: none;
+}
+
+/*new select icons*/
+span.wapi-select-icon-button {
+    position: absolute;
+    right: 10px;
+    width: auto;
+    top: 0;
+    color: green;
+    cursor: pointer;
+}
+
+.form-table td {
+    position: relative;
+}
+
+.wapi-shortcode-prop-wrap {
+    border-top: 1px solid rgba(1, 1, 1, 0.3);
+    display: block;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.wapi-shortcode-prop-wrap-right {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.wapi-shortcode-prop-wrap-right .wapi-shortcode-prop-wrap-right-color,
+.wapi-shortcode-prop-wrap-right .wapi-shortcode-prop-wrap-right-size {
+    padding: 10px;
+    display: inline-block;
+}
+
+.ok-cancel {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.wapi-overlay {
+    display: none;
+    background: rgba(1, 1, 1, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 9;
+}
+
+.select-icon-cancel-wrap,
+.select-icon-ok-wrap {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.select-icon-cancel-wrap a,
+.select-icon-ok-wrap a {
+    width: 100px;
+}
+
+@media screen and (max-width: 480px) {
+    .wapi-shortcode-prop-wrap-right-color input.color-picker {
+        width: 90px;
+    }
+
+    .wapi-shortcode-prop-wrap-right-size input {
+        width: 50px;
+    }
+
+    .wapi-shortcode-prop-wrap {
+        position: fixed;
+        bottom: 0;
+        background: white;
+        left: 0;
+        right: 0;
+    }
+}
+
+.select-icon-ok:hover, .select-icon-cancel:hover {
+    background-color: rgba(86, 86, 86, 0.56);
+}
+
+.ok-cancel a.select-icon-cancel,
+.ok-cancel a.select-icon-ok {
+    text-decoration: none;
+    width: 100px;
+}
+
+/*instock*/
+.instock-count-bar-style-hide {
+    display: none;
+}
+
+form.vi-ui.form input[type="search"] {
+    width: 100% !important;
+}
+
+.wrap .vi-ui.menu.vertical a.item.active {
+    background: #000 !important;
+    color: #fff;
+}
+
+.wrap .vi-ui.menu.vertical a.item:hover {
+    background: rgba(1, 1, 1, .4) !important;
+}
+
+.wrap .vi-ui.menu.vertical a.item.wapi-inactive-item {
+    background: rgba(1, 1, 1, .2);
+}
+
+/*Icons*/
+.icon-wrap.wapi-custom-icons {
+    float: left;
+}
+
+.icon-wrap.wapi-custom-icons span {
+    display: inline-block;
+    padding: 10px;
+    font-size: 22px;
+    width: inherit;
+    height: inherit;
+}
